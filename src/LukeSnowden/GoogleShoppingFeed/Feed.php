@@ -23,7 +23,7 @@ class Feed
     /**
      * @var string
      */
-    protected $iso4217CountryCode = 'GBP';
+    protected $iso4217CountryCode = 'UAH';
 
     /**
      * Stores the list of items for the feed
@@ -227,6 +227,7 @@ class Feed
             'ru' => 'ru-RU',
             'sw' => 'sv-SE',
             'tr' => 'tr-TR',
+            'uk' => 'ru-UA',
             'us' => 'en-US'
         );
         //set default language to gb for backward compatibility
