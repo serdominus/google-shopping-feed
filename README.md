@@ -10,7 +10,7 @@ How to install with composer.
 ```json
 {
     "require": {
-        "lukesnowden/google-shopping-feed": "^2.2"
+        "serdominus/google-shopping-feed": "^2.2"
     }
 }
 ```
@@ -67,4 +67,4 @@ $lang = 'gb';
 $googleCategories = GoogleShopping::categories($lang);
 ```
 
-`$lang` can be one of these Google supported languages: au, br, cn, cz, de, dk, es, fr, gb, it, jp, nl, no, pl, ru, sw, tr, us.
+`$lang` can be one of these Google supported languages: au, br, cn, cz, de, dk, es, fr, gb, it, jp, nl, no, pl, ru, sw, tr, uk, us.
